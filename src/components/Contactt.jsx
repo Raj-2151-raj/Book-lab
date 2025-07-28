@@ -1,3 +1,5 @@
+// book-lab/src/components/Contactt.jsx
+// This component provides a contact form for users to reach out with questions or suggestions.
 const Contact = () => {
     return (
         <div >

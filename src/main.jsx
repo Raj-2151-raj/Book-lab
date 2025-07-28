@@ -1,4 +1,5 @@
 // src/main.jsx
+// This is the entry point of the React application where the main component is rendered.
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';

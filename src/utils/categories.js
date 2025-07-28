@@ -1,4 +1,6 @@
 // src/utils/categories.js
+// This file contains the data for book categories used in the application.
+
 export const categories = [
   {
     name: 'Fiction',

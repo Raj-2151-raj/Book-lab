@@ -1,3 +1,6 @@
+// book-lab/src/components/Footer.jsx
+// This component renders the footer of the application with links and information.
+
 import React from 'react';
 
 const Footer = () => {

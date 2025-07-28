@@ -1,3 +1,6 @@
+// book-lab/src/components/PopularBooks.jsx
+// This component displays a list of popular books based on their rating.
+
 import React from 'react';
 import { useSelector } from 'react-redux';
 

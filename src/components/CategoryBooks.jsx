@@ -1,5 +1,6 @@
 
 // src/components/CategoryBooks.jsx
+// This component displays books filtered by category based on the URL parameter.
 import React from "react";
 import { useParams } from "react-router-dom";
 import booksData from "../utils/booksData";

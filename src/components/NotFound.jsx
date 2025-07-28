@@ -1,4 +1,5 @@
 // src/components/NotFound.jsx
+// This component displays a 404 Not Found page when a user navigates to a non-existent route.
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom'; 
 const NotFound = () => {

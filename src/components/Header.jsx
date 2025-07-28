@@ -1,3 +1,6 @@
+  // book-lab/src/components/Header.jsx
+// This component renders the header of the application with navigation links and a logo.
+
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';

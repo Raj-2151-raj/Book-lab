@@ -10,7 +10,7 @@ const Welcome = () => {
     <div className="w-full">
       
       {/*  Hero Section with background image and overlay */}
-      <div className="relative h-screen bg-[url('/hero.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center rounded-2xl mx-0.5">
+      <div className="relative h-screen bg-[url('/hero.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center rounded-xl ">
         
         {/* Dark overlay for better text visibility */}
         <div className="absolute inset-0 bg-black/40"></div>

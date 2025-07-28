@@ -1,3 +1,6 @@
+// book-lab/src/components/BrowseBooks.jsx
+// This component allows users to browse and search for books in the collection.
+
 import { useState, useEffect } from "react";
 import booksData from "../utils/booksData";
 

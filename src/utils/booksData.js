@@ -1,3 +1,7 @@
+// 
+// book-lab/src/utils/booksData.js
+// This file contains the data for the books used in the application.
+
 const booksData = [
   // Fiction (10 books)
   {

@@ -1,3 +1,6 @@
+//  book-lab/src/components/BookCat.jsx
+// This component displays a grid of book categories with hover effects.
+
 const BookCat = () => {
     return(
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 p-8">

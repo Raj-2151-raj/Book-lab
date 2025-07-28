@@ -1,3 +1,7 @@
+// book-lab/src/App.jsx
+// This is the main application component that sets up routing and state management.
+
+
 import React, { useEffect } from 'react';
 
 import Header from './components/Header';
