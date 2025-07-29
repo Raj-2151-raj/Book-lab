@@ -40,22 +40,22 @@ A modern web application to browse, add, and manage books, built with React and 
 
 ###  Home Page
 ![Home Page](src/assets/addbook.jpg),
-(src/assets/home3.png),
-(![src/assets/home2.png](src/assets/home2.jpg))
+![Home Page 2](src/assets/home3.jpg),
+(![Home page 3](src/assets/home2.jpg))
 
 ###  Browse Books Page
-![Browse Books](src/assets/Browse.png)
+![Browse Books](src/assets/Browse.jpg)
 
 ###  Book Details Page
-![Book Details](src/assets/fictionbook.png),
-![non-fiction](src/assets/non-fictionbook.png),
-![Sci-fi](src/assets/sci-fi.png)
+![Book Details](src/assets/fictionbook.jpg),
+![non-fiction](src/assets/non-fictionbook.jpg),
+![Sci-fi](src/assets/sci-fi.jpg)
 
 ###  Add Book Page
-![Add Book](src/assets/addbook.png)
+![Add Book](src/assets/addbook.jpg)
 
 ###  404 Not Found Page
-![404 Page](src/assets/NotFound.png)
+![404 Page](src/assets/NotFound.jpg)
 
 
 ## Installation & Running the App
