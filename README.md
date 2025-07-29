@@ -58,9 +58,19 @@ A modern web application to browse, add, and manage books, built with React and 
 ![404 Page](src/assets/NotFound.jpg)
 
 
-## Installation & Running the App
 
-1. **Clone the repository:**
 
+1. **git hub link :**  
+
+ https://github.com/Raj-2151-raj/Book-lab
+
+
+
+## 🚀 How to Run the Application Locally
+
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/online-library-system.git
+git clone https://github.com/Raj-2151-raj/Book-lab.git
+cd Book-lab
+npm install (node_module download)
+npm run dev
