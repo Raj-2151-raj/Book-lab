@@ -39,9 +39,9 @@ A modern web application to browse, add, and manage books, built with React and 
 ##  Screenshots
 
 ###  Home Page
-![Home Page](src/assets/Home1.png),
+![Home Page](src/assets/addbook.jpg),
 (src/assets/home3.png),
-(src/assets/home2.png)
+(![src/assets/home2.png](src/assets/home2.jpg))
 
 ###  Browse Books Page
 ![Browse Books](src/assets/Browse.png)
