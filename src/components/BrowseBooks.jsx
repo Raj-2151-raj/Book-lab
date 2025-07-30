@@ -1,6 +1,6 @@
 // book-lab/src/components/BrowseBooks.jsx
 // This component allows users to browse and search for books in the collection.
-
+import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import booksData from "../utils/booksData";
 
@@ -23,12 +23,16 @@ const BrowseBooks = () => {
   }, [searchText]);
 
   return (
+    <>
     <div className="flex flex-col items-center justify-center mt-16 px-4 mb-60">
+      <motion.div  initial={{ opacity: 0, y: -30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}>
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
         Browse The Books
       </h1>
 
-      <div className="flex items-center space-x-4 mb-10">
+      <div className="flex items-center space-x-4   justify-center mt-16 px-4 m-20">
         <input
           type="text"
           value={searchText}
@@ -51,6 +55,15 @@ const BrowseBooks = () => {
               key={index}
               className="bg-white rounded-xl p-4 shadow hover:shadow-lg transition "
             >
+              <motion.div
+                            key={book.id}
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true, amount: 0.2 }}
+                            transition={{ duration: 0.5, delay: index * 0.15 }}
+                            whileHover={{ scale: 1.03 }}
+                            className="bg-white m-auto p-4 rounded shadow hover:-translate-y-1 duration-500"
+                          >
               <img
                 src={book.coverImage}
                 alt={book.title}
@@ -60,13 +73,16 @@ const BrowseBooks = () => {
                 {book.title}
               </h3>
               <p className="text-gray-600">by {book.author}</p>
+              </motion.div>
             </div>
           ))}
         </div>
       ) : (
         <p className="text-gray-500 text-center">No books to display.</p>
       )}
+      </motion.div>
     </div>
+</>
   );
 };
 

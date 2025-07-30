@@ -2,7 +2,7 @@
 // This component allows users to add a new book to the collection.
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../redux/booksSlice'; // ✅ with "s"
+import { addBook } from '../redux/booksSlice'; 
 
 import { useNavigate } from 'react-router-dom';
 import { Plus } from 'lucide-react';

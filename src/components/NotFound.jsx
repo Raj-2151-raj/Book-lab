@@ -1,12 +1,18 @@
 // src/components/NotFound.jsx
 // This component displays a 404 Not Found page when a user navigates to a non-existent route.
+import { motion } from 'framer-motion';
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom'; 
 const NotFound = () => {
   const location = useLocation();
 
   return (
+    
     <div className="text-center mt-55 m-auto">
+      <motion.div 
+       initial={{ opacity: 0, y: -30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}>
        <h1 className="text-4xl font-bold text-red-600 mb-2">Opps!!</h1>
     
       <h1 className="text-4xl font-bold text-red-600">404 - Page Not Found</h1>
@@ -19,6 +25,7 @@ const NotFound = () => {
       >
         Go to Home
       </Link>
+      </motion.div>
     </div>
   );
 };
